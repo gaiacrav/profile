@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&family=Work+Sans:wght@200;400&display=swap');
+
+@media (max-width: 540px) {
+  .container {
+    width: 100px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+
+body {
+background-color: #EFF7FF;
+color:  #8F2D56;
+font-family: 'Work Sans', sans-serif;
+font-size: 16px;
+text-align: center;
+}
+
+h1 {
+  color:  #8F2D56;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 22px;
+}
+
+h2 {
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 18px;
+}
+
+p {
+  color: #8F2D56;
+  line-height: 1,5;
+}
+
+a {
+  color: #8F2D56;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #218380;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.container {
+width: 50vw;
+margin: 0 auto;
+}
+
+.upper_card {
+  background-color: white;
+  text-align: center;
+  padding: 20px 50px;
+  border-radius: 1%;
+}
+
+.lower_card {
+  background-color: #8F2D56;
+  text-align: center;
+  margin: 10px 1px;
+  padding: 10px 50px;
+  border-radius: 1%;
+}
+
+#foto_profilo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+#footer {
+  color: white;
+  font-size: 14px;
+}
+
+.fa-linkedin, .fa-facebook, .fa-github-square {
+  color: white;
+  font-size: 40px;
+}
+
+a:hover .fa-linkedin, a:hover .fa-facebook, a:hover .fa-github-square {
+  color: #EFF7FF;
+}
+
